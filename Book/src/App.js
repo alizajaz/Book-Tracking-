@@ -7,12 +7,7 @@ import Error404 from './Components/Pages/Error404';
 
 
 class BooksApp extends React.Component {
-  render() {
-    return(
-      
-      
-      
-      state = {
+     state = {
     books: []
   }
 
