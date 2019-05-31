@@ -47,21 +47,21 @@ class HomePage extends React.Component {
 
                 <BookShelf
                 key="Currently Reading"
-                bookUpdater={this.bookUpdater}
+                bookUpdate={this.bookUpdate}
                 name="Current Reading"
                  book={this.state.books.filter(b => b.shelf === "currentlyReading")}
                  />
 
                 <BookShelf
                   key="Want to Read"
-                bookUpdater={this.bookUpdater}
+                bookUpdate={this.bookUpdate}
                  name="Want To Read"
                  book={this.state.books.filter(b => b.shelf === "wantToRead")}
                  />
 
                 <BookShelf
                   key="Read"
-                bookUpdater={this.bookUpdater}
+                bookUpdate={this.bookUpdate}
                 name="Read"
                 book={this.state.books.filter(b => b.shelf === "read")}
                 />
