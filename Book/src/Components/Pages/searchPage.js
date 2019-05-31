@@ -85,7 +85,7 @@ class searchPage extends React.Component {
               {
                  this.state.searchresults.map((book, key) =>
                   <Book
-                  bookUpdater={this.bookUpdater}
+                  bookUpdater={this.bookUpdate}
                   book={book} key={key}
                   />)
               }
