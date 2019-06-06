@@ -133,6 +133,12 @@ Components: divide the code into small pieces so that you can move code one file
 5. Error404.js
 
 ##  Step 3 
+In the main application, the main page display three shelves, each of which contain number of books.The threes helves are 
+1. currently reading
+2. want to read 
+3. Read
+The main page also have link for search page that channel next page.
+
 you basically divide the code and put those code under the component. Here are some example:
 
 ## Search.js
